@@ -4,7 +4,7 @@
 
 body {
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   background-color: #111;
 }
 
@@ -14,7 +14,7 @@ body {
   margin: 0px auto;
   position: relative;
   overflow: scroll;
-  background-color: #333;
+  background-color: #3A3A3A;
 }
 
 nav {
@@ -38,22 +38,21 @@ nav {
   padding: 20px 0 0 20px;
   position: relative;
   margin-bottom: 1px;
-  position: relative;
-  background-color: #DDD;
+  background-color: #DEDEDE;
 }
 
 .location:hover {
-  background-color: #BBB;
+  background-color: #B3B3B3;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 1.1em;
   font-weight: bold;
   display: inline-block;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 0.8em;
   padding-top: 5px;
   padding-bottom: 20px;
 }
@@ -62,10 +61,14 @@ h3 {
   float: right;
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 2%;
   transform: translateY(-50%);
   /*position: absolute;
   top: 30px;
   right: 20px;*/
 
+}
+
+.fa:before {
+  font-size: 0.6em;
 }
